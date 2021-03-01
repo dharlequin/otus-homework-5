@@ -14,6 +14,9 @@
 - get all users (requires login)
 
 # Deployment
+```
+minikube addons enable ingress
+```
 - this applies postgres and secrets
 ```
 kubectl apply -f .
@@ -28,7 +31,4 @@ kubectl apply -f .
 cd ..
 cd auth
 kubectl apply -f .
-```
-```
-minikube addons enable ingress
 ```

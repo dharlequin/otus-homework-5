@@ -9,7 +9,7 @@ spec:
   - host: arch.homework
     http:
       paths:
-        - path: /myapp($|/)(.*)
+        - path: /auth-app($|/)(.*)
           pathType: Prefix
           backend:
             service:
