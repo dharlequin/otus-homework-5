@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: hello-py
-        image: dharlequin/go-auth-service:v1
+        image: dharlequin/go-auth-service:v5
         env:
           - name: DB_HOST
             valueFrom:
