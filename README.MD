@@ -6,7 +6,7 @@
 - **POST: register** - creates new user
 - **POST: login** - creates new session id
 - **GET: sign-in** - placeholder for API Gateway redirect
-- **GET: auth login user** - validates existing session id
+- **GET: auth** - validates existing session id
 - **GET: logout** - invalidates existing session
 
 ## User Service (:8080)
